@@ -1,0 +1,13 @@
+{
+    "name": "danielgriffiths/php-js-html-css-example",
+    "description": "brief design and functionality project",
+    "authors": [
+        {
+            "name": "Daniel Griffiths",
+            "email": "logiconictvtube@gmail.com"
+        }
+    ],
+    "require": {
+      "php": "^5.5.17"
+    }
+}
