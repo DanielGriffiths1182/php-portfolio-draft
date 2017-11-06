@@ -41,8 +41,8 @@
         </header>
         <ul class="actions">
           <?php
-          $nameErr = $subjectErr = $emailErr = $genderErr = $websiteErr = "";
-          $name = $subjectErr = $email = $gender = $comment = $website = "";
+          $nameErr = $subjectErr = $emailErr = $websiteErr = "";
+          $name = $subjectErr = $email = $comment = $website = "";
 
           if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (empty($_POST["name"])) {
@@ -93,13 +93,6 @@
             $data = stripslashes($data);
             $data = htmlspecialchars($data);
             return $data;
-          }
-
-          if(isset($_POST['button_pressed'])) {
-              $to = 'dgriffiths.coding@gmail.com'
-              $message = "{$email}, {$website},  {$comment}";
-
-              mail('dgriffiths.coding@gmail.com', $subject, $message);
           }
 
           ?>
