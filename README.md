@@ -1,3 +1,9 @@
+# TODO
+1. Finish PHPMailer
+
+# NOTES
+1. Why is GitHub elongating the indentations during the first section...
+
 # php-portfolio-draft
 
 PHP, HTML, CSS | Draft of potential portfolio landing page, will Heroku deploy
