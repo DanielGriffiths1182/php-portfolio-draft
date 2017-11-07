@@ -1,5 +1,6 @@
 # TODO
 1. Finish PHPMailer
+2. IMPORTANT: Compress my jpg's
 
 # NOTES
 1. Why is GitHub elongating the indentations during the first section...
