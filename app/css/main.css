@@ -34,6 +34,12 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	table {
+		width: 80%;
+		margin: auto;
+		color: #ffffff;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -485,7 +491,7 @@
 
 
 	label {
-		color: #484848;
+		color: #ffffff;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -697,6 +703,8 @@
 
 				.wrapper.style3 header.major h2 {
 					color: #ffffff;
+					width: 400px;
+					margin: auto;
 				}
 
 				@media screen and (max-width: 1280px) {
@@ -941,7 +949,7 @@
 
 	#footer {
 		padding: 1em 0 1em 0;
-		background: #f6f6f6;
+		background: #f6f6f600;
 		color: #aaa;
 		text-align: center;
 	}
