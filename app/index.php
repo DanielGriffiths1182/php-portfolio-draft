@@ -11,27 +11,27 @@
 
     <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-		<div id="one" class="wrapper style2 special">
-			<div class="container">
-				<header class="major">
-					<h2>Resources</h2>
-				</header>
-				<div class="row 150%">
-					<div class="6u 12u$(xsmall)">
-						<div class="image fit captioned">
-							<img src="images/headshot.jpg" alt="" />
-							<h3><a href="https://drive.google.com/file/d/0B-J4jsxsIL80N2JUcmkxQnZCSEk/view" class="button special big">Resume</a></h3>
-						</div>
-					</div>
-					<div class="6u$ 12u$(xsmall)">
-						<div class="image fit captioned">
-							<img src="images/github.jpg" alt="" />
-							<h3><a href="https://github.com/DanielGriffiths1182" class="button special big">Github</a></h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+  	<div id="one" class="wrapper style2 special">
+  		<div class="container">
+  			<header class="major">
+  				<h2>Daniel's Resources</h2>
+  			</header>
+  			<div class="row 150%">
+  				<div class="6u 12u$(xsmall)">
+  					<div class="image fit captioned">
+  						<img src="images/headshot.jpg" alt="" />
+  						<h3><a href="https://drive.google.com/file/d/0B-J4jsxsIL80N2JUcmkxQnZCSEk/view" class="button special big">Resume</a></h3>
+  					</div>
+  				</div>
+  				<div class="6u$ 12u$(xsmall)">
+  					<div class="image fit captioned">
+  						<img src="images/github.jpg" alt="" />
+  						<h3><a href="https://github.com/DanielGriffiths1182" class="button special big">Github</a></h3>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
 
     <div id="two" class="wrapper style3 special">
       <div class="container">
@@ -171,13 +171,13 @@
     					<label for="Middle_Initial" class="required">Middle Initial*</label>
     					<input type="text" name="Middle_Initial" id="Middle_Initial" maxlength="1" value="<?php echo @$request['Middle_Initial']; ?>" />
     				</td>
+          </tr>
+          <tr>
     				<td valign="top" colspan="4">
     					<label for="Last_Name" class="required">Last Name*</label>
     					<input type="text" name="Last_Name" id="Last_Name" maxlength="40" value="<?php echo @$request['Last_Name']; ?>" />
     				</td>
-    			</tr>
-    			<tr>
-    				<td valign="top" colspan="4">
+    				<td valign="top" colspan="2">
     					<label for="State" class="required">State*</label>
     					<select name="State" id="State">
     						<option value="" <?php if ( @$request['State'] == "") { echo "selected='selected'"; } ?>>- Select a State -</option>
@@ -238,7 +238,9 @@
     						<option value="WY" <?php if ( @$request['State'] == "WY") { echo "selected='selected'"; } ?>>Wyoming</option>
     						</select>
     				</td>
-    				<td valign="top" colspan="4">
+          </tr>
+          <tr>
+    				<td valign="top" colspan="6">
     					<label for="Email" class="required">Email Address*</label>
     					<input type="text" name="Email" id="Email" maxlength="100" value="<?php echo @$request['Email']; ?>" />
     				</td>
